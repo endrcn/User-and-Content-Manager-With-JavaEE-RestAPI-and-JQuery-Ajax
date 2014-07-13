@@ -1,0 +1,51 @@
+
+body{
+	margin:0;
+	padding: 0;
+	font:12px Arial;
+}
+
+a{text-decoration: none; color:#ff5000; font-weight: bold;}
+a:hover{color:#333;}
+
+button{
+	background: linear-gradient(#eee,#ddd);
+	padding: 3px 10px 3px 10px;
+	font-weight: bold;
+	color:#555;
+	/*font-style: italic;*/
+}
+
+input[type="text"], input[type="password"]{
+	border:1px solid #ccc;
+	border-radius: 3px;
+	height:20px;
+	width:175px;
+}
+
+textarea{
+	border:1px solid #ccc;
+	border-radius:3px;
+	width:175px;
+	min-width:175px;
+	max-width:175px;
+}
+
+.content{margin:0 auto; width:1000px; border-radius: 5px; box-shadow: 3px 3px 5px #555; border:1px solid #ddd; overflow: hidden; background: #fafafa; padding-bottom: 50px;}
+.header{width:1000px; background: #444; height:60px; text-align: center; color:#fff; font-size:25px; font-weight: bold; font-style: italic; padding-top:40px;}
+.headerBottom{width:1000px; background: #ff5000; height:25px; margin-bottom:50px;}
+.headerBottom ul{margin:0 auto; padding:0; list-style: none;}
+.headerBottom ul li{float:left; margin-left:10px; line-height: 25px;}
+.headerBottom ul li a{color:#fff;}
+.headerBottom ul li a:hover{color:#333;}
+.userBox{width:500px; border:1px solid #ccc; border-radius: 3px; background: #eaeaea; box-shadow: 3px 3px 5px #999; margin:0 auto; padding-bottom:20px; padding-top:0; margin-bottom:20px;}
+.userBox .title{background:#ff5000; color:white; padding:5px 10px 5px 10px; width:150px; text-align: center;
+ font-weight: bold; color:#fff; font-size:13px; border:1px solid #ccc; box-shadow: 5px 5px 10px #aaa; position: relative; left:10px; top:-12px; }
+ table.liste{width:100%; text-align: center;}
+ table.liste tr{background: #dcdcdc; cursor:pointer;}
+ table.liste tr.head{background:#ff3000; font-weight: bold; color:#fff;}
+ table.liste tr.data{background: #fafafa;}
+ table.liste tr.hover{background: #ccc;}
+
+
+ .clear{clear:both;}

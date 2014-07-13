@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-9" />
+	<title>Proje Görev - İçerik İşlemleri</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/icerik.js"></script>
+</head>
+<body>
+	<div class="content">
+		<div class="header">İçerik İşlemleri</div>
+		<div class="headerBottom">
+			<ul>
+				<li><a href="index.html">Kullanıcı İşlemleri</a></li>
+				<li><a href="icerik.html">İçerik İşlemleri</a></li>
+			</ul>
+		</div>		
+		<div class="userBox">
+			<div class="title">İçerik Kayıt Formu</div>
+			<form action="#" method="post" onsubmit="return false;" enctype="multipart/form-data">
+				<table style="margin:0 auto;">
+					<tr>
+						<td align="right">Başlık : </td>
+						<td>
+						<input type="hidden" name="id" />
+						<input type="text" name="baslik" /></td>
+					</tr>
+					<tr>
+						<td align="right">Detay : </td>
+						<td><textarea name="detay" id="detay"></textarea></td>
+					</tr>
+					<tr>
+						<td align="right">Resim : </td>
+						<td><input type="file" name="resim" /></td>
+					</tr>
+					<tr>
+						<td colspan="2" class="bilgi"></td>
+					</tr>
+					<tr>
+						<td colspan="2" align="right">
+							<button id="btnIcerikSil">Sil</button>
+							<button id="btnIcerikGuncelle">Güncelle</button>
+							<button id="btnIcerikKayit">Kaydet</button>
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+		
+		<!-- İçerik listesi -->
+		<div class="userBox">
+			<div class="title">İçerik Listesi</div>
+			<table class="liste">
+				<tr class="head">
+					<td>Başlık</td>
+					<td>Resim</td>
+				</tr>
+			</table>
+		</div>
+		
+	</div>
+</body>
+</html>

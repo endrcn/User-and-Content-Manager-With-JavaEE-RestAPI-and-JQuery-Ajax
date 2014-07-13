@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+mySqlDatabaseName=projegorev5
+mySqlDatabasePassword=root
+mySqlDatabaseUser=root
+mySqlHostName=localhost
+mySqlIsConfigured=true
+mySqlJdbcJar=C\:\\Users\\Siqptare\\Desktop\\J2EE Tutorial\\eclipse\\workspace\\HelloWorld\\war\\WEB-INF\\lib\\mysql-connector-java-5.1.18-bin.jar
+mySqlPort=3306

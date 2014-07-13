@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-9" />
+	<title>Proje Görev - Kullanıcı İşlemleri</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/kullanici.js"></script>
+</head>
+<body>
+	<div class="content">
+		<div class="header">Kullanıcı İşlemleri</div>
+		<div class="headerBottom">
+			<ul>
+				<li><a href="index.html">Kullanıcı İşlemleri</a></li>
+				<li><a href="icerik.html">İçerik İşlemleri</a></li>
+			</ul>
+		</div>		
+		<div class="userBox">
+			<div class="title">Kullanıcı Kayıt Formu</div>
+			<form action="#" method="post" onsubmit="return false;">
+				<table style="margin:0 auto;">
+					<tr>
+						<td align="right">Adınız : </td>
+						<td>
+						<input type="hidden" name="id" />
+						<input type="text" name="adi" /></td>
+					</tr>
+					<tr>
+						<td align="right">Soyadınız : </td>
+						<td><input type="text" name="soyadi" /></td>
+					</tr>
+					<tr>
+						<td align="right">E-Posta : </td>
+						<td><input type="text" name="email" /></td>
+					</tr>
+					<tr>
+						<td align="right">Şifre : </td>
+						<td><input type="password" name="sifre" /></td>
+					</tr>
+					<tr>
+						<td align="right">Şifre(Tekrar) : </td>
+						<td><input type="password" name="sifreTk" /></td>
+					</tr>
+					<tr>
+						<td colspan="2" class="bilgi"></td>
+					</tr>
+					<tr>
+						<td colspan="2" align="right">
+							<button id="btnKullaniciSil">Sil</button>
+							<button id="btnKullaniciGuncelle">Güncelle</button>
+							<button id="btnKullaniciKayit">Kayıt Ol</button>
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+		
+		<!-- Kullanıcı listesi -->
+		<div class="userBox">
+			<div class="title">Kullanıcı Listesi</div>
+			<table class="liste">
+				<tr class="head">
+					<td>Adı</td>
+					<td>Soyadı</td>
+					<td>E-Posta</td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+		
+	</div>
+</body>
+</html>
